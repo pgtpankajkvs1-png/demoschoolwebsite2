@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Aarohan International School, a premier CBSE educational institution in Bengaluru fostering academic excellence, IIT-JEE/NEET foundation, and holistic development.">
+    <meta name="keywords" content="Aarohan International School, CBSE school Bengaluru, best school in Bangalore, IIT JEE foundation school, NEET prep, school admissions, top secondary school">
+    <title data-translate="page-title">Aarohan International School | CBSE School Bengaluru</title>
+    <!-- Google Fonts: Plus Jakarta Sans & Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome CDN for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="nav-logo">
+                <span class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                <span class="logo-text">AAROHAN <span class="accent-text">INTERNATIONAL</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-translate="nav-home">Home</a>
+                <a href="#about" class="nav-link" data-translate="nav-about">About</a>
+                <a href="#principal" class="nav-link" data-translate="nav-principal">Principal</a>
+                <a href="#academics" class="nav-link" data-translate="nav-academics">Academics</a>
+                <a href="#results" class="nav-link" data-translate="nav-results">Results</a>
+                <a href="#news" class="nav-link" data-translate="nav-news">News</a>
+                <a href="#facilities" class="nav-link" data-translate="nav-facilities">Facilities</a>
+                <a href="#admissions" class="nav-link" data-translate="nav-admissions">Admissions</a>
+                <a href="#contact" class="nav-link" data-translate="nav-contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Language Switcher Button -->
+                <button class="btn btn-secondary btn-lang" id="langSwitch" aria-label="Switch Language">
+                    <i class="fa-solid fa-language"></i> <span id="langText">हिंदी</span>
+                </button>
+                <button class="btn btn-secondary btn-portal" id="portalBtn" aria-label="Open Student Portal" data-translate="nav-portal">
+                    <i class="fa-solid fa-user-astronaut"></i> Portal
+                </button>
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-menu-overlay" id="mobileOverlay">
+        <div class="mobile-menu-container">
+            <button class="mobile-menu-close" id="menuClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="mobile-logo">
+                <i class="fa-solid fa-graduation-cap"></i> AAROHAN
+            </div>
+            <nav class="mobile-links">
+                <a href="#home" class="mobile-link" data-translate="nav-home">Home</a>
+                <a href="#about" class="mobile-link" data-translate="nav-about">About</a>
+                <a href="#principal" class="mobile-link" data-translate="nav-principal">Principal</a>
+                <a href="#academics" class="mobile-link" data-translate="nav-academics">Academics</a>
+                <a href="#results" class="mobile-link" data-translate="nav-results">Results</a>
+                <a href="#news" class="mobile-link" data-translate="nav-news">News</a>
+                <a href="#facilities" class="mobile-link" data-translate="nav-facilities">Facilities</a>
+                <a href="#admissions" class="mobile-link" data-translate="nav-admissions">Admissions</a>
+                <a href="#contact" class="mobile-link" data-translate="nav-contact">Contact</a>
+                <div class="mobile-actions-wrapper">
+                    <button class="btn btn-secondary mobile-lang-btn" id="mobileLangSwitch"><i class="fa-solid fa-language"></i> हिंदी</button>
+                    <button class="btn btn-primary mobile-portal-btn" id="mobilePortalBtn" data-translate="nav-portal"><i class="fa-solid fa-user-astronaut"></i> Student Portal</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-overlay-grid"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge fade-in" data-translate="hero-badge">
+                    <span class="badge-dot"></span> Reimagining Indian Education
+                </div>
+                <h1 class="hero-title fade-in-delay-1" data-translate="hero-title">
+                    Empowering <span class="gradient-text">Minds</span><br>
+                    Shaping The <span class="gradient-text-alt">Future</span>
+                </h1>
+                <p class="hero-description fade-in-delay-2" data-translate="hero-desc">
+                    Aarohan International School merges CBSE academic rigor with IIT-JEE & NEET foundations and cutting-edge STEM training, nurturing global leaders of tomorrow.
+                </p>
+                <div class="hero-actions fade-in-delay-3">
+                    <a href="#admissions" class="btn btn-primary btn-glow" data-translate="hero-cta-enroll">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#about" class="btn btn-outline" data-translate="hero-cta-explore">Explore Campus</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-in-delay-2">
+                <div class="image-glow-backdrop"></div>
+                <div class="hero-card-floating card-1">
+                    <i class="fa-solid fa-medal icon-badge"></i>
+                    <div>
+                        <h4 data-translate="hero-badge-1-title">Top CBSE Rank</h4>
+                        <p data-translate="hero-badge-1-desc">Academic Excellence</p>
+                    </div>
+                </div>
+                <div class="hero-card-floating card-2">
+                    <i class="fa-solid fa-atom icon-badge"></i>
+                    <div>
+                        <h4 data-translate="hero-badge-2-title">JEE/NEET Prep</h4>
+                        <p data-translate="hero-badge-2-desc">Integrated Coaching</p>
+                    </div>
+                </div>
+                <img src="assets/hero_campus.png" alt="Aarohan International School Campus" class="hero-main-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Principal's Word Section -->
+    <section class="principal-section" id="principal">
+        <div class="container principal-container">
+            <div class="principal-image-wrapper">
+                <div class="border-glow-box">
+                    <img src="folder/HD-wallpaper-lord-shiva-artwork-others.jpg" alt="School Principal" class="principal-img">
+                </div>
+            </div>
+            <div class="principal-content">
+                <h2 class="section-title"><span class="accent-line"></span><span data-translate="principal-title">A Word from the Principal</span></h2>
+                <h3 class="principal-name" data-translate="principal-name">Dr. Meera Krishnan</h3>
+                <p class="principal-role" data-translate="principal-role">Principal, Aarohan International School</p>
+                <blockquote class="principal-quote" data-translate="principal-quote">
+                    "At Aarohan, we believe education is not merely the accumulation of facts, but the awakening of character, curiosity, and compassion. Our mission is to guide every child to rise—like the name Aarohan suggests—toward their highest potential while staying rooted in integrity and Indian values."
+                </blockquote>
+                <p class="principal-text" data-translate="principal-text">
+                    With a dedicated faculty, modern facilities, and a curriculum that balances CBSE excellence with competitive foundations, we invite you to join our community of learners and leaders.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Statistics -->
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-card glass-card">
+                <div class="stat-icon-wrapper"><i class="fa-solid fa-user-graduate"></i></div>
+                <h3 class="stat-number" data-target="1500">0</h3>
+                <p class="stat-label" data-translate="stat-1-label">Active Scholars</p>
+            </div>
+            <div class="stat-card glass-card">
+                <div class="stat-icon-wrapper"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <h3 class="stat-number" data-target="110">0</h3>
+                <p class="stat-label" data-translate="stat-2-label">Expert Mentors</p>
+            </div>
+            <div class="stat-card glass-card">
+                <div class="stat-icon-wrapper"><i class="fa-solid fa-percent"></i></div>
+                <h3 class="stat-number" data-target="100">0</h3>
+                <p class="stat-label" data-translate="stat-3-label">Board Pass Rate</p>
+            </div>
+            <div class="stat-card glass-card">
+                <div class="stat-icon-wrapper"><i class="fa-solid fa-flask"></i></div>
+                <h3 class="stat-number" data-target="18">0</h3>
+                <p class="stat-label" data-translate="stat-4-label">Advanced Research Labs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <div class="border-glow-box">
+                    <img src="assets/sports_arena.png" alt="Students in Creative and Sports activities" class="about-img">
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="section-title"><span class="accent-line"></span><span data-translate="about-title">Our Identity & Mission</span></h2>
+                <h3 class="about-subtitle" data-translate="about-subtitle">Nurturing holistic development in a progressive environment</h3>
+                <p class="about-text" data-translate="about-text">
+                    Founded with a vision to redefine progressive schooling, Aarohan International School provides an engaging CBSE curriculum combined with competitive coaching, encouraging students to excel and think critically.
+                </p>
+                <div class="value-item">
+                    <div class="value-icon"><i class="fa-solid fa-shield-heart"></i></div>
+                    <div class="value-details">
+                        <h4 data-translate="about-val-1-title">Integrity & Sanskar</h4>
+                        <p data-translate="about-val-1-desc">We foster a deep culture of respect, ethical leadership, and social responsibility in every student.</p>
+                    </div>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <div class="value-details">
+                        <h4 data-translate="about-val-2-title">Innovation & Scientific Temper</h4>
+                        <p data-translate="about-val-2-desc">Equipping students with modern science kits, coding platforms, and design challenges.</p>
+                    </div>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon"><i class="fa-solid fa-globe"></i></div>
+                    <div class="value-details">
+                        <h4 data-translate="about-val-3-title">Global Vision, Indian Roots</h4>
+                        <p data-translate="about-val-3-desc">Fostering cultural awareness and global competence while staying strongly anchored in our rich heritage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section class="academics-section" id="academics">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title center"><span class="accent-line center"></span><span data-translate="acad-title">Academic Framework</span></h2>
+                <p class="section-desc" data-translate="acad-desc">Tailored CBSE curriculum combined with foundation coaching to spark curiosity and competitive excellence.</p>
+            </div>
+            <div class="academics-grid">
+                <!-- Program 1 -->
+                <div class="academic-card glass-card">
+                    <div class="card-image-bg icon-primary"><i class="fa-solid fa-seedling"></i></div>
+                    <h3 data-translate="acad-card-1-title">Primary Wing</h3>
+                    <span class="grade-badge" data-translate="acad-card-1-badge">Classes I - V</span>
+                    <p data-translate="acad-card-1-desc">Fostering foundational numeracy, language literacy, environmental sciences, and creative arts that trigger curiosity.</p>
+                    <ul class="card-features">
+                        <li data-translate="acad-card-1-f1"><i class="fa-solid fa-check text-accent"></i> Experiential Science</li>
+                        <li data-translate="acad-card-1-f2"><i class="fa-solid fa-check text-accent"></i> Art & Music workshops</li>
+                        <li data-translate="acad-card-1-f3"><i class="fa-solid fa-check text-accent"></i> Bilingual proficiency</li>
+                    </ul>
+                </div>
+                <!-- Program 2 -->
+                <div class="academic-card glass-card">
+                    <div class="card-image-bg icon-secondary"><i class="fa-solid fa-compass"></i></div>
+                    <h3 data-translate="acad-card-2-title">Middle Wing</h3>
+                    <span class="grade-badge" data-translate="acad-card-2-badge">Classes VI - VIII</span>
+                    <p data-translate="acad-card-2-desc">Transitioning into independent scientific investigations, analytical math, coding fundamentals, and social sciences.</p>
+                    <ul class="card-features">
+                        <li data-translate="acad-card-2-f1"><i class="fa-solid fa-check text-accent"></i> Coding & Robotics</li>
+                        <li data-translate="acad-card-2-f2"><i class="fa-solid fa-check text-accent"></i> Public Speaking & Debates</li>
+                        <li data-translate="acad-card-2-f3"><i class="fa-solid fa-check text-accent"></i> NTSE & Olympiad Prep</li>
+                    </ul>
+                </div>
+                <!-- Program 3 -->
+                <div class="academic-card glass-card">
+                    <div class="card-image-bg icon-accent"><i class="fa-solid fa-meteor"></i></div>
+                    <h3 data-translate="acad-card-3-title">Secondary & Sr. Sec.</h3>
+                    <span class="grade-badge" data-translate="acad-card-3-badge">Classes IX - XII</span>
+                    <p data-translate="acad-card-3-desc">Rigorous board preparation under the CBSE curriculum with integrated IIT-JEE, NEET, and CLAT foundation courses.</p>
+                    <ul class="card-features">
+                        <li data-translate="acad-card-3-f1"><i class="fa-solid fa-check text-accent"></i> JEE / NEET / CLAT Prep</li>
+                        <li data-translate="acad-card-3-f2"><i class="fa-solid fa-check text-accent"></i> Special Career Mentoring</li>
+                        <li data-translate="acad-card-3-f3"><i class="fa-solid fa-check text-accent"></i> Practical Lab Research</li>
+                    </ul>
+                </div>
+                <!-- Program 4 -->
+                <div class="academic-card glass-card">
+                    <div class="card-image-bg icon-teal"><i class="fa-solid fa-microchip"></i></div>
+                    <h3 data-translate="acad-card-4-title">STEM & Olympiad</h3>
+                    <span class="grade-badge" data-translate="acad-card-4-badge">Special Program</span>
+                    <p data-translate="acad-card-4-desc">Immersive coaching modules for national/international science Olympiads, hackathons, and electronics design.</p>
+                    <ul class="card-features">
+                        <li data-translate="acad-card-4-f1"><i class="fa-solid fa-check text-accent"></i> Olympiad Question banks</li>
+                        <li data-translate="acad-card-4-f2"><i class="fa-solid fa-check text-accent"></i> Circuit prototyping</li>
+                        <li data-translate="acad-card-4-f3"><i class="fa-solid fa-check text-accent"></i> Inter-school hackathons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Annual Board Results Section -->
+    <section class="results-section" id="results">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title center"><span class="accent-line center"></span><span data-translate="res-title">Board Achievements</span></h2>
+                <p class="section-desc" data-translate="res-desc">Celebrating the extraordinary academic standards and perfect CBSE pass rates of Aarohan International School scholars.</p>
+            </div>
+
+            <div class="results-grid">
+                <!-- Class XII (12th Board Results) -->
+                <div class="result-card glass-card">
+                    <div class="result-card-header">
+                        <div class="result-class-badge"><i class="fa-solid fa-graduation-cap"></i> <span data-translate="res-card-1-class">Class XII</span></div>
+                        <h3 data-translate="res-card-1-title">Senior Secondary Results</h3>
+                        <p class="result-board-label" data-translate="res-card-1-board">Central Board (CBSE AISSCE) Results</p>
+                    </div>
+                    
+                    <div class="results-stats-row">
+                        <div class="result-stat-box">
+                            <h4 class="stat-box-num">91.2%</h4>
+                            <p class="stat-box-label" data-translate="res-card-1-s1-label">School Average</p>
+                        </div>
+                        <div class="result-stat-boxHighlight">
+                            <h4 class="stat-box-num text-success">100%</h4>
+                            <p class="stat-box-label" data-translate="res-card-1-s2-label">Overall Pass Rate</p>
+                        </div>
+                        <div class="result-stat-box">
+                            <h4 class="stat-box-num">48%</h4>
+                            <p class="stat-box-label" data-translate="res-card-1-s3-label">Scholars > 90%</p>
+                        </div>
+                    </div>
+
+                    <div class="achievers-list-wrapper">
+                        <h4 data-translate="res-card-1-ach-title">Class XII Top Achievers</h4>
+                        <div class="achievers-grid">
+                            <!-- Achiever 1 -->
+                            <div class="achiever-item">
+                                <div class="achiever-rank badge-gold">1st</div>
+                                <div class="achiever-avatar-mock"><i class="fa-solid fa-user-tie"></i></div>
+                                <div class="achiever-info">
+                                    <h5>Priya Patel</h5>
+                                    <p data-translate="res-card-1-ach1-sub">Science Stream (Physics, Chemistry, Maths, CS)</p>
+                                </div>
+                                <div class="achiever-score">99.6%</div>
+                            </div>
+                            <!-- Achiever 2 -->
+                            <div class="achiever-item">
+                                <div class="achiever-rank badge-silver">2nd</div>
+                                <div class="achiever-avatar-mock"><i class="fa-solid fa-user-astronaut"></i></div>
+                                <div class="achiever-info">
+                                    <h5>Aarav Sharma</h5>
+                                    <p data-translate="res-card-1-ach2-sub">Commerce Stream (Maths, Accountancy, Economics)</p>
+                                </div>
+                                <div class="achiever-score">98.4%</div>
+                            </div>
+                            <!-- Achiever 3 -->
+                            <div class="achiever-item">
+                                <div class="achiever-rank badge-bronze">3rd</div>
+                                <div class="achiever-avatar-mock"><i class="fa-solid fa-user"></i></div>
+                                <div class="achiever-info">
+                                    <h5>Ananya Iyer</h5>
+                                    <p data-translate="res-card-1-ach3-sub">Humanities Stream (History, Economics, Pol. Science)</p>
+                                </div>
+                                <div class="achiever-score">97.8%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Class X (10th Board Results) -->
+                <div class="result-card glass-card">
+                    <div class="result-card-header">
+                        <div class="result-class-badge"><i class="fa-solid fa-book"></i> <span data-translate="res-card-2-class">Class X</span></div>
+                        <h3 data-translate="res-card-2-title">Secondary School Results</h3>
+                        <p class="result-board-label" data-translate="res-card-2-board">Central Board (CBSE AISSE) Results</p>
+                    </div>
+                    
+                    <div class="results-stats-row">
+                        <div class="result-stat-box">
+                            <h4 class="stat-box-num">89.4%</h4>
+                            <p class="stat-box-label" data-translate="res-card-2-s1-label">School Average</p>
+                        </div>
+                        <div class="result-stat-boxHighlight">
+                            <h4 class="stat-box-num text-success">100%</h4>
+                            <p class="stat-box-label" data-translate="res-card-2-s2-label">Overall Pass Rate</p>
+                        </div>
+                        <div class="result-stat-box">
+                            <h4 class="stat-box-num">42%</h4>
+                            <p class="stat-box-label" data-translate="res-card-2-s3-label">Scholars > 90%</p>
+                        </div>
+                    </div>
+
+                    <div class="achievers-list-wrapper">
+                        <h4 data-translate="res-card-2-ach-title">Class X Top Achievers</h4>
+                        <div class="achievers-grid">
+                            <!-- Achiever 1 -->
+                            <div class="achiever-item">
+                                <div class="achiever-rank badge-gold">1st</div>
+                                <div class="achiever-avatar-mock"><i class="fa-solid fa-user-ninja"></i></div>
+                                <div class="achiever-info">
+                                    <h5>Rahul Sharma</h5>
+                                    <p data-translate="res-card-2-ach1-sub">Science & Mathematics Focus</p>
+                                </div>
+                                <div class="achiever-score">99.2%</div>
+                            </div>
+                            <!-- Achiever 2 -->
+                            <div class="achiever-item">
+                                <div class="achiever-rank badge-silver">2nd</div>
+                                <div class="achiever-avatar-mock"><i class="fa-solid fa-user-graduate"></i></div>
+                                <div class="achiever-info">
+                                    <h5>Diya Kapoor</h5>
+                                    <p data-translate="res-card-2-ach2-sub">Sanskrit & Science Focus</p>
+                                </div>
+                                <div class="achiever-score">98.1%</div>
+                            </div>
+                            <!-- Achiever 3 -->
+                            <div class="achiever-item">
+                                <div class="achiever-rank badge-bronze">3rd</div>
+                                <div class="achiever-avatar-mock"><i class="fa-solid fa-user-tie"></i></div>
+                                <div class="achiever-info">
+                                    <h5>Kabir Malhotra</h5>
+                                    <p data-translate="res-card-2-ach3-sub">Social Sciences & Robotics Focus</p>
+                                </div>
+                                <div class="achiever-score">97.5%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section (Interactive Tabs) -->
+    <section class="facilities-section" id="facilities">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title center"><span class="accent-line center"></span><span data-translate="fac-title">World-Class Campus</span></h2>
+                <p class="section-desc" data-translate="fac-desc">Innovative spaces designed to support research, physical health, and the fine arts.</p>
+            </div>
+            
+            <div class="tab-wrapper">
+                <div class="tab-buttons" role="tablist">
+                    <button class="tab-btn active" role="tab" aria-selected="true" data-tab="robotics-tab" id="tab-btn-1">
+                        <i class="fa-solid fa-microchip"></i> <span data-translate="fac-tab-1-btn">Tech & Robotics Lab</span>
+                    </button>
+                    <button class="tab-btn" role="tab" aria-selected="false" data-tab="sports-tab" id="tab-btn-2">
+                        <i class="fa-solid fa-basketball"></i> <span data-translate="fac-tab-2-btn">Sports Complex</span>
+                    </button>
+                    <button class="tab-btn" role="tab" aria-selected="false" data-tab="campus-tab" id="tab-btn-3">
+                        <i class="fa-solid fa-building-columns"></i> <span data-translate="fac-tab-3-btn">Main Campus Hub</span>
+                    </button>
+                </div>
+                
+                <div class="tab-content-container">
+                    <!-- Tab 1 -->
+                    <div class="tab-pane active glass-card" id="robotics-tab" role="tabpanel">
+                        <div class="tab-pane-grid">
+                            <div class="pane-text">
+                                <h3 data-translate="fac-pane-1-title">Tech & Robotics Innovation Center</h3>
+                                <p data-translate="fac-pane-1-desc">Our state-of-the-art innovation center is equipped with high-performance workstations, 3D printers, micro-controllers, and laser cutters. Here, students design solutions to real-world problems.</p>
+                                <ul class="pane-highlights">
+                                    <li data-translate="fac-pane-1-f1"><i class="fa-solid fa-bolt"></i> 3D Printing & Prototyping Stations</li>
+                                    <li data-translate="fac-pane-1-f2"><i class="fa-solid fa-bolt"></i> Custom Circuit Assembly Station</li>
+                                    <li data-translate="fac-pane-1-f3"><i class="fa-solid fa-bolt"></i> AI Model Training Workstations</li>
+                                </ul>
+                            </div>
+                            <div class="pane-image">
+                                <img src="assets/robotics_lab.png" alt="Robotics Lab Facility">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 2 -->
+                    <div class="tab-pane glass-card" id="sports-tab" role="tabpanel">
+                        <div class="tab-pane-grid">
+                            <div class="pane-text">
+                                <h3 data-translate="fac-pane-2-title">Multi-discipline Athletics Complex</h3>
+                                <p data-translate="fac-pane-2-desc">Promoting physical well-being and team camaraderie, the sports complex features indoor courts, professional turf fields, and high-performance gymnastics gear.</p>
+                                <ul class="pane-highlights">
+                                    <li data-translate="fac-pane-2-f1"><i class="fa-solid fa-bolt"></i> Olympic-size indoor training court</li>
+                                    <li data-translate="fac-pane-2-f2"><i class="fa-solid fa-bolt"></i> Professional outdoor soccer field</li>
+                                    <li data-translate="fac-pane-2-f3"><i class="fa-solid fa-bolt"></i> Dedicated strength & yoga studios</li>
+                                </ul>
+                            </div>
+                            <div class="pane-image">
+                                <img src="assets/sports_arena.png" alt="Sports Arena Facility">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 3 -->
+                    <div class="tab-pane glass-card" id="campus-tab" role="tabpanel">
+                        <div class="tab-pane-grid">
+                            <div class="pane-text">
+                                <h3 data-translate="fac-pane-3-title">Main Campus & Eco-Common</h3>
+                                <p data-translate="fac-pane-3-desc">Our campus is built with modern sustainability principles, incorporating natural lighting, smart energy systems, and ample communal green spaces that encourage dialogue.</p>
+                                <ul class="pane-highlights">
+                                    <li data-translate="fac-pane-3-f1"><i class="fa-solid fa-bolt"></i> Solar-powered modular classrooms</li>
+                                    <li data-translate="fac-pane-3-f2"><i class="fa-solid fa-bolt"></i> Rooftop botanical laboratory</li>
+                                    <li data-translate="fac-pane-3-f3"><i class="fa-solid fa-bolt"></i> Open-air student amphitheater</li>
+                                </ul>
+                            </div>
+                            <div class="pane-image">
+                                <img src="assets/hero_campus.png" alt="Main School Campus">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Updates Section -->
+    <section class="news-section" id="news">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title center"><span class="accent-line center"></span><span data-translate="news-title">News & Announcements</span></h2>
+                <p class="section-desc" data-translate="news-desc">Keep track of the latest happenings, academic alerts, and celebrating key achievements at Aarohan.</p>
+            </div>
+
+            <div class="news-layout-grid">
+                <!-- Featured News Grid (Left) -->
+                <div class="news-featured-block">
+                    <h3 class="news-block-title"><i class="fa-solid fa-newspaper text-primary"></i> <span data-translate="news-block-title">Featured Stories</span></h3>
+                    
+                    <div class="news-cards-grid">
+                        <!-- News Card 1 -->
+                        <div class="news-card glass-card">
+                            <div class="news-card-img-wrapper">
+                                <span class="news-category-badge badge-accent" data-translate="news-card-1-cat">Achievements</span>
+                                <img src="assets/robotics_lab.png" alt="Robotics Championship">
+                            </div>
+                            <div class="news-card-content">
+                                <div class="news-date"><i class="fa-solid fa-calendar-days"></i> <span data-translate="news-card-1-date">June 18, 2026</span></div>
+                                <h4 data-translate="news-card-1-title">First Prize at National Robotics Olympiad 2026</h4>
+                                <p data-translate="news-card-1-desc">Our Middle Wing student inventors designed an autonomous waste-sorting rover that clinched the gold medal in the junior category.</p>
+                                <a href="#" class="news-read-more" data-translate="news-card-1-link">Read Full Story <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- News Card 2 -->
+                        <div class="news-card glass-card">
+                            <div class="news-card-img-wrapper">
+                                <span class="news-category-badge badge-primary" data-translate="news-card-2-cat">Infrastructure</span>
+                                <img src="assets/hero_campus.png" alt="New Biotech wing">
+                            </div>
+                            <div class="news-card-content">
+                                <div class="news-date"><i class="fa-solid fa-calendar-days"></i> <span data-translate="news-card-2-date">June 10, 2026</span></div>
+                                <h4 data-translate="news-card-2-title">Inauguration of Advanced Biotechnology wing</h4>
+                                <p data-translate="news-card-2-desc">Aarohan has added a modern molecular biology facility to foster early exposure to genetics, tissue culture, and biochemistry.</p>
+                                <a href="#" class="news-read-more" data-translate="news-card-2-link">Read Full Story <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- News Card 3 -->
+                        <div class="news-card glass-card">
+                            <div class="news-card-img-wrapper">
+                                <span class="news-category-badge badge-secondary" data-translate="news-card-3-cat">Campus Life</span>
+                                <img src="assets/sports_arena.png" alt="Annual Tarang Fest">
+                            </div>
+                            <div class="news-card-content">
+                                <div class="news-date"><i class="fa-solid fa-calendar-days"></i> <span data-translate="news-card-3-date">May 28, 2026</span></div>
+                                <h4 data-translate="news-card-3-title">Annual Inter-School Cultural Fest 'Tarang'</h4>
+                                <p data-translate="news-card-3-desc">Prepare for an explosive week of creative arts, debate, and music as Aarohan hosts over 25 guest institutions next month.</p>
+                                <a href="#" class="news-read-more" data-translate="news-card-3-link">Read Full Story <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Circulars & Notice Board (Right) -->
+                <div class="notice-board-block glass-card">
+                    <div class="notice-board-header">
+                        <h3><i class="fa-solid fa-bullhorn text-secondary"></i> <span data-translate="notice-board-title">Notice Board</span></h3>
+                        <span class="pulse-dot-active" data-translate="notice-board-live">Live</span>
+                    </div>
+                    
+                    <div class="notice-list-scroll">
+                        <!-- Notice item 1 -->
+                        <div class="notice-item">
+                            <div class="notice-meta">
+                                <span class="notice-date" data-translate="notice-item-1-date">22 Jun</span>
+                                <span class="notice-tag tag-red" data-translate="notice-item-1-tag">Important</span>
+                            </div>
+                            <h5 data-translate="notice-item-1-title">CBSE Class 10th & 12th Board Registration 2026</h5>
+                            <p data-translate="notice-item-1-desc">Forms must be finalized and LOC verification documents submitted to class teachers by June 30th without fail.</p>
+                        </div>
+
+                        <!-- Notice item 2 -->
+                        <div class="notice-item">
+                            <div class="notice-meta">
+                                <span class="notice-date" data-translate="notice-item-2-date">18 Jun</span>
+                                <span class="notice-tag tag-blue" data-translate="notice-item-2-tag">PTM</span>
+                            </div>
+                            <h5 data-translate="notice-item-2-title">Parent-Teacher Meeting (PTM) Schedule</h5>
+                            <p data-translate="notice-item-2-desc">Interactive feedback session PTM for Classes VI-XII is scheduled on Saturday, June 27th from 8:30 AM to 12:30 PM.</p>
+                        </div>
+
+                        <!-- Notice item 3 -->
+                        <div class="notice-item">
+                            <div class="notice-meta">
+                                <span class="notice-date" data-translate="notice-item-3-date">15 Jun</span>
+                                <span class="notice-tag tag-green" data-translate="notice-item-3-tag">Admissions</span>
+                            </div>
+                            <h5 data-translate="notice-item-3-title">Counseling Slots Open for Session 2026-27</h5>
+                            <p data-translate="notice-item-3-desc">Admissions criteria and application guide booklet are available for download. Select counseling timings online.</p>
+                        </div>
+
+                        <!-- Notice item 4 -->
+                        <div class="notice-item">
+                            <div class="notice-meta">
+                                <span class="notice-date" data-translate="notice-item-4-date">08 Jun</span>
+                                <span class="notice-tag tag-purple" data-translate="notice-item-4-tag">Coaching</span>
+                            </div>
+                            <h5 data-translate="notice-item-4-title">JEE & NEET Special Crash Courses</h5>
+                            <p data-translate="notice-item-4-desc">Secondary wing student diagnostic tests for selection to Special Batch 2027 classes commence on July 5th.</p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-outline btn-block notice-btn" data-translate="notice-board-btn">View All Notices</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title center"><span class="accent-line center"></span><span data-translate="test-title">Academy Voices</span></h2>
+                <p class="section-desc" data-translate="test-desc">Hear what parents, alumni, and scholars say about their life-changing journey at Aarohan.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="testimonial-text" data-translate="test-1-text">"Sending our children to Aarohan International was the best decision we've made. The blend of rigorous CBSE maths curriculum with advanced robotics classes matches their interests perfectly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                        <div class="author-info">
+                            <h5>Dr. Rajesh Kapoor</h5>
+                            <p data-translate="test-1-role">Parent of Class IX Scholar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="testimonial-text" data-translate="test-2-text">"The integrated JEE prep track pushed me to develop actual software projects. It gave me the skills and competitive edge that helped me get accepted into IIT Bombay Computer Science."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fa-solid fa-user-graduate"></i></div>
+                        <div class="author-info">
+                            <h5>Sneha Reddy</h5>
+                            <p data-translate="test-2-role">Class of 2025 Alumni</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="testimonial-text" data-translate="test-3-text">"The teachers here don't just instruct—they mentor. The guidance I received in the biology labs and public speaking classes shaped my career ambitions."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fa-solid fa-user-astronaut"></i></div>
+                        <div class="author-info">
+                            <h5>Arjun Mehta</h5>
+                            <p data-translate="test-3-role">Class XII Student Captain</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section (Interactive Form) -->
+    <section class="admissions-section" id="admissions">
+        <div class="admissions-glow-bg"></div>
+        <div class="container admissions-container">
+            <div class="admissions-info">
+                <h2 class="section-title"><span class="accent-line"></span><span data-translate="adm-title">Admissions Open</span></h2>
+                <h3 class="admissions-subtitle" data-translate="adm-subtitle">Take your first step toward an exceptional future</h3>
+                <p data-translate="adm-desc">We seek students who are eager to learn, innovate, and contribute positively to our community. Our admission process is holistic, looking beyond simple academic grades.</p>
+                <div class="steps-list">
+                    <div class="step-item">
+                        <span class="step-num">01</span>
+                        <div>
+                            <h4 data-translate="adm-step-1-title">Submit Inquiry</h4>
+                            <p data-translate="adm-step-1-desc">Fill out the online application inquiry form with your academic interest.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <span class="step-num">02</span>
+                        <div>
+                            <h4 data-translate="adm-step-2-title">Campus Interaction</h4>
+                            <p data-translate="adm-step-2-desc">Schedule an interactive counseling call and visit the campus facilities.</p>
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <span class="step-num">03</span>
+                        <div>
+                            <h4 data-translate="adm-step-3-title">Enrollment Decisions</h4>
+                            <p data-translate="adm-step-3-desc">Admission confirmations are shared within two weeks of parent interactions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="admissions-form-wrapper glass-card">
+                <h3 class="form-title" data-translate="form-title">Application Inquiry</h3>
+                <p class="form-desc" data-translate="form-desc">Provide details below to receive program guides and trigger counselor calls.</p>
+                
+                <form id="admissionsForm" class="interactive-form">
+                    <div class="input-group">
+                        <input type="text" id="studentName" required placeholder=" " autocomplete="off">
+                        <label for="studentName" id="lbl-studentName"><i class="fa-solid fa-user"></i> <span data-translate="form-label-name">Student Full Name</span></label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="parentEmail" required placeholder=" " autocomplete="off">
+                        <label for="parentEmail" id="lbl-parentEmail"><i class="fa-solid fa-envelope"></i> <span data-translate="form-label-email">Email Address</span></label>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group select-group">
+                            <select id="gradeSelect" required>
+                                <option value="" disabled selected hidden></option>
+                                <option value="primary" data-translate="form-opt-primary">Primary School (Class I-V)</option>
+                                <option value="middle" data-translate="form-opt-middle">Middle School (Class VI-VIII)</option>
+                                <option value="high" data-translate="form-opt-high">Secondary & Sr. Sec (Class IX-XII)</option>
+                            </select>
+                            <label for="gradeSelect" class="select-label" id="lbl-gradeSelect"><i class="fa-solid fa-graduation-cap"></i> <span data-translate="form-label-grade">Class Level</span></label>
+                        </div>
+                        <div class="input-group">
+                            <input type="tel" id="parentPhone" required placeholder=" " autocomplete="off">
+                            <label for="parentPhone" id="lbl-parentPhone"><i class="fa-solid fa-phone"></i> <span data-translate="form-label-phone">Phone Number</span></label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="studentInterests" rows="3" placeholder=" "></textarea>
+                        <label for="studentInterests" id="lbl-studentInterests"><i class="fa-solid fa-brain"></i> <span data-translate="form-label-interests">Key Interests & Hobbies</span></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-glow" id="btn-admissions-submit">
+                        <span data-translate="form-btn-submit">Submit Inquiry</span> <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container contact-grid">
+            <div class="contact-info-block">
+                <h2 class="section-title"><span class="accent-line"></span><span data-translate="con-title">Get In Touch</span></h2>
+                <p class="contact-description" data-translate="con-desc">Have queries about CBSE board enrollment, events, or test series? Reach out and we'll reply within 24 hours.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-detail-item">
+                        <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4 data-translate="con-loc-title">Location</h4>
+                            <p data-translate="con-loc-val">12, Outer Ring Road, Tech Park, Bellandur, Bengaluru, KA 560103</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <div class="icon-circle"><i class="fa-solid fa-phone-volume"></i></div>
+                        <div>
+                            <h4 data-translate="con-phone-title">Phone Support</h4>
+                            <p>+91 80 4960 9800</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail-item">
+                        <div class="icon-circle"><i class="fa-solid fa-envelope-open-text"></i></div>
+                        <div>
+                            <h4 data-translate="con-email-title">Registrar Email</h4>
+                            <p>admissions@aarohanschool.edu.in</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links-wrapper">
+                    <h4 data-translate="con-social-title">Follow Our Journey</h4>
+                    <div class="social-buttons">
+                        <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-block glass-card">
+                <h3 class="form-title" data-translate="con-form-title">Send a Message</h3>
+                <form id="contactForm" class="interactive-form">
+                    <div class="input-group">
+                        <input type="text" id="contactName" required placeholder=" " autocomplete="off">
+                        <label for="contactName" id="lbl-contactName"><i class="fa-solid fa-user"></i> <span data-translate="con-label-name">Full Name</span></label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="contactEmail" required placeholder=" " autocomplete="off">
+                        <label for="contactEmail" id="lbl-contactEmail"><i class="fa-solid fa-envelope"></i> <span data-translate="con-label-email">Email Address</span></label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="contactMessage" rows="4" required placeholder=" "></textarea>
+                        <label for="contactMessage" id="lbl-contactMessage"><i class="fa-solid fa-message"></i> <span data-translate="con-label-message">Your Message</span></label>
+                    </div>
+                    <button type="submit" class="btn btn-outline btn-block" id="btn-contact-submit">
+                        <span data-translate="con-btn-send">Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                    <span class="logo-text">AAROHAN <span class="accent-text">INTERNATIONAL</span></span>
+                </a>
+                <p class="brand-pitch" data-translate="foot-brand-desc">Blending creative thinking with CBSE core science & maths foundation to shape outstanding future leaders.</p>
+                <p class="copyright" data-translate="foot-copyright">&copy; 2026 Aarohan International School. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-translate="foot-links-title-1">Quick Access</h4>
+                <a href="#home" data-translate="nav-home">Home</a>
+                <a href="#about" data-translate="nav-about">About</a>
+                <a href="#principal" data-translate="nav-principal">Principal</a>
+                <a href="#academics" data-translate="nav-academics">Academic Tracks</a>
+                <a href="#results" data-translate="nav-results">Board Results</a>
+                <a href="#news" data-translate="nav-news">News & Events</a>
+                <a href="#facilities" data-translate="nav-facilities">Campus Life</a>
+                <a href="#admissions" data-translate="nav-admissions">Admissions</a>
+            </div>
+            <div class="footer-links">
+                <h4 data-translate="foot-links-title-2">Support & Portals</h4>
+                <a href="#" id="footerPortalLink" data-translate="foot-portal-stud">Student Dashboard</a>
+                <a href="#" id="footerParentLink" data-translate="foot-portal-parent">Parent Portal</a>
+                <a href="#" id="footerStaffLink" data-translate="foot-portal-staff">Staff Webmail</a>
+                <a href="#" data-translate="foot-careers">Career Opportunities</a>
+                <a href="#" data-translate="foot-privacy">Privacy Policy</a>
+            </div>
+            <div class="footer-newsletter">
+                <h4 data-translate="foot-newsletter-title">Newsletter Subscription</h4>
+                <p data-translate="foot-newsletter-desc">Subscribe to receive event invites and CBSE academic circular summaries.</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required aria-label="Newsletter email" id="newsletterEmailInput">
+                    <button type="submit" aria-label="Subscribe" id="btn-newsletter-submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Student Portal Modal -->
+    <div class="modal-overlay" id="portalModal" aria-hidden="true" role="dialog">
+        <div class="modal-card glass-card">
+            <button class="modal-close" id="modalClose" aria-label="Close Portal Modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <i class="fa-solid fa-user-astronaut modal-logo"></i>
+                <h2 data-translate="modal-title">Aarohan Hub</h2>
+                <p data-translate="modal-desc">Access your assignments, schedules, and grading reports.</p>
+            </div>
+            <form id="portalLoginForm" class="interactive-form">
+                <div class="input-group">
+                    <input type="text" id="portalUser" required placeholder=" " autocomplete="off">
+                    <label for="portalUser" id="lbl-portalUser"><i class="fa-solid fa-address-card"></i> <span data-translate="modal-label-user">Student or Parent ID</span></label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="portalPass" required placeholder=" " autocomplete="off">
+                    <label for="portalPass" id="lbl-portalPass"><i class="fa-solid fa-key"></i> <span data-translate="modal-label-pass">Password</span></label>
+                </div>
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        <input type="checkbox" checked id="portalRemember">
+                        <span class="checkmark"></span> <span data-translate="modal-label-remember">Remember me</span>
+                    </label>
+                    <a href="#" class="forgot-pass-link" data-translate="modal-link-forgot">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block btn-glow" id="btn-portal-submit">
+                    <span data-translate="modal-btn-submit">Sign In</span> <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+            </form>
+            <div class="modal-footer">
+                <p data-translate="modal-footer-text">New Student? First-time setup credentials are sent via admission email.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification (Floating Alert) -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <i class="fa-solid fa-circle-check toast-icon"></i>
+            <div class="toast-message">
+                <h4 id="toastTitle">Success!</h4>
+                <p id="toastBody">Your inquiry was submitted.</p>
+            </div>
+        </div>
+        <button class="toast-close" id="toastClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <!-- JavaScript Execution -->
+    <script src="script.js"></script>
+</body>
+</html>
